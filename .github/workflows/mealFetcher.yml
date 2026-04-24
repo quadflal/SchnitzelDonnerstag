@@ -1,8 +1,9 @@
 name: mealFetcher.yml
+
 on:
   schedule:
     # Run at 6 AM UTC every day
-    - cron: '0 6 * * *'
+    - cron: '0 9 * * 1-5'
   # Allow manual trigger for testing
   workflow_dispatch:
 
@@ -21,4 +22,7 @@ jobs:
       - run: pip install -r mealFetcher/requirements.txt
 
       - name: Run Python script
+        env:
+          MONGO_USERNAME: ${{ secrets.MONGO_USERNAME }}
+          MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
         run: python mealFetcher/main.py
