@@ -26,7 +26,7 @@ CANTEEN_DATA = {
     "vaihingenMensa2": "399",
     "esslingen1Flandernstrasse": "397",
     "ludwigsburg": "393",
-    "esslingen2Mitte": "397",
+    "esslingen2Mitte": "396",
     "horb": "923"
 }
 
