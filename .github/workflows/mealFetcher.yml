@@ -3,7 +3,7 @@ name: mealFetcher.yml
 on:
   schedule:
     # Run at 6 AM UTC every day
-    - cron: '0 9 * * 1-5'
+    - cron: '0 9 * * *'
   # Allow manual trigger for testing
   workflow_dispatch:
 
