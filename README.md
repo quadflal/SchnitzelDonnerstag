@@ -1,5 +1,7 @@
-# Data Mining and Pattern Recognition 2026
-Repository for Data Mining and Pattern Recognition course at Hochschule der Medien Stuttgart.
+# SchnitzelDonnerstag
+
+An analysis of meals in several canteens in Stuttgart. The goal is to prove that the so called "SchnitzelDonnerstag" really exists.
+
 
 # Contributors
 
